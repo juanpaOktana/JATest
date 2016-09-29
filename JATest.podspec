@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
   s.name         = "JATest"
   s.version      = "0.0.1"
-  s.summary      = "A short description of JATest."
+  s.summary      = "This is a meanfully description of this pod"
 
   s.homepage     = "https://github.com/juanpaOktana/JATest"
 
