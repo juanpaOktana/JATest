@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/juanpaOktana/JATest"
 
-  s.license      = "MIT (example)"
+  s.license = { :type => "MIT"}
 
   s.author             = { "Juan Pablo Amorin" => "juan.amorin@arkusinc.com" }
 
