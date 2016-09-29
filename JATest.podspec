@@ -3,8 +3,9 @@
 Pod::Spec.new do |s|
 
   s.name         = "JATest"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "This is a meanfully description of this pod"
+  s.ios.deployment_target = '8.0'
 
   s.homepage     = "https://github.com/juanpaOktana/JATest"
 
@@ -20,5 +21,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency 'AFNetworking', '~> 3.0'
+
+  s.source_files = "*.{swift}"
 
 end
